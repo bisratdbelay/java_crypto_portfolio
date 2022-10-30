@@ -14,9 +14,7 @@ public class Main {
 		
 		Scanner scanner1 = new Scanner(System.in);
 		
-		System.out.println("Enter current BTC-USD price: ");
-		
-		price = scanner1.nextDouble();
+		price = Double.parseDouble(args[0]);
 		
 		System.out.println("Enter Bitcoin wallet balance: ");
 		

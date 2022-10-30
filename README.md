@@ -11,4 +11,6 @@ javac java_crypto_portfolio/Main.java
 
 to run program execute:
 
-java java_crypto_portfolio/Main
+java_crypto_portfolio/wget.sh
+
+java_crypto_portfolio/Main $(cat text.txt)
